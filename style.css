@@ -1,0 +1,56 @@
+:root {
+  --text-color: white;
+  --bg-img: linear-gradient(to right, #97ead2, #8cc7a1);
+  --btn-col: #93c4c2;
+  --btn-col-hover: #bee3db;
+  --btn-tran-sec: .6s;
+}
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--text-color);
+  font-optical-sizing: auto;
+  font-weight: 600;
+  text-align: center;
+  background: var(--bg-img) top center/cover;
+}
+
+body p {
+  font-size: 150%;
+}
+
+body h1 {
+  font-size: 200%;
+}
+
+#buttons-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  left: 0;
+  bottom: 20px;
+  position: fixed;
+  border: 1px solid red;
+  gap: 20px;
+}
+
+.button {
+  border-radius: 6%;
+  border: 1px solid red;
+  background: var(--btn-col);
+  style: none;
+  cursor: pointer;
+  width: 120px;
+  height: 25px;
+  line-height: 25px;
+  transition: all var(--btn-tran-sec);
+}
+
+.button:hover {
+  background: var(--btn-col-hover);
+  width: 130px;
+  height: 35px;
+  line-height: 35px;
+}
