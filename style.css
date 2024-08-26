@@ -10,6 +10,14 @@
   --btn-tran-sec: .6s;
 }
 
+img {
+  width: 300px;
+  height: 300px;
+}
+
+img {
+  border-radius: 6%;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -54,7 +62,6 @@ a {
   line-height: var(--btn-height);
   transition: all var(--btn-tran-sec);
 }
-
 
 
 .button:hover {
