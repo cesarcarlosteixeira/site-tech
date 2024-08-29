@@ -1,0 +1,1 @@
+how set max text in line aka line break in css
